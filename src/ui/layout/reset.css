@@ -1,0 +1,25 @@
+body, p, h1, h2, h3, h4, menu, img {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    position: relative;
+}
+
+*:focus {
+    outline: 0;
+}
+
+input,
+select,
+textarea {
+    -webkit-user-select: initial;
+}
+
+
+a { text-decoration: none; }

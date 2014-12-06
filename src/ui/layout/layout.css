@@ -1,0 +1,35 @@
+html, body, view {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Helvetica Neue';
+    color: black;
+    font-weight: 200;
+    background: white;
+    font-size: 36px;
+}
+
+view {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform .35s;
+    z-index: 0;
+}
+
+.pull-to-refresh-arrow:before {
+    font-family: "icons" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "i";
+}
