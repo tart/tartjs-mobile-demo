@@ -26,6 +26,8 @@ Install the local dependencies such as grunt tasks.
 npm install
 ```
 
+We're actually working on an experimental, yet easier installation. [Click here](#grunt-tart) to see those steps.
+
 ## Create Cordova project
 And the next step is creating your application.
 ```sh
@@ -126,6 +128,20 @@ This basically builds your application. Now you can run it through the simulator
 ## Cheers!
 
 Here's the final result!
+
+## grunt-tart
+
+To automate minification and Cordova build actions (even running on device) you can use our brand new grunt task:
+
+```sh
+npm install grunt-tart
+```
+
+And after package installation you can run your app, let's say, on an android device like that:
+
+```sh
+grunt tart:android --run=device
+```
 
 ## During Development
 

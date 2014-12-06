@@ -18,5 +18,10 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:tart/tartjs-mobile-demo.git"
+  },
+  "cordovaPlugins": {
+    "org.apache.cordova.device": "latest",
+    "org.apache.cordova.splashscreen": "latest",
+    "org.apache.cordova.statusbar": "latest"
   }
 }

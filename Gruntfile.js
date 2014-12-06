@@ -258,6 +258,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-symlink');
     grunt.loadNpmTasks('grunt-newer-explicit');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-tart');
 
     grunt.registerTask('default', ['clean:before', 'mkdir:all', 'newer:uglify', 'newer:closureBuilder', 'copy:prod', 'concat', 'combine:production', 'cssmin']);
     grunt.registerTask('production', ['clean:before', 'mkdir:all', 'newer:uglify', 'newer:closureBuilder', 'copy:prod', 'concat', 'combine:production', 'cssmin']);
