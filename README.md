@@ -18,7 +18,7 @@ sudo npm install -g cordova
 
 Clone this repository recursively so all submodules (namely, tartJS and its submodules) are also cloned.
 ```sh
-git clone --recursive git@github.com:tart/mobile-boilerplate.git
+git clone --recursive git@github.com:tart/tartjs-mobile-demo.git
 ```
 
 Install the local dependencies such as grunt tasks.
