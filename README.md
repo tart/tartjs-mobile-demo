@@ -1,5 +1,7 @@
 # tartJS Mobile Demo
 
+[![Join the chat at https://gitter.im/tart/tartjs-mobile-demo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tart/tartjs-mobile-demo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project aims to implement the best practices of hybrid mobile application development with Cordova (Phonegap) and tartJS.
 
 [tartJS](https://github.com/tart/tartjs) is a performance-optimized framework that is based on the [Google Closure Library](https://github.com/google/closure-library). tartJS is under constant development for over three years.
